@@ -15,13 +15,23 @@
           <target>1.8</target>
         </configuration>
 	      
-	      <!-- TESTING -->
+	      <dependencies>
+    <dependency>
+  		<groupId>javax.servlet</groupId>
+  		<artifactId>javax.servlet-api</artifactId>
+  		<version>3.0.1</version>
+  	</dependency>
+		      
+		       <!-- TESTING -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.7</version>
 			<scope>test</scope>
 		</dependency>
+  </dependencies>
+	      
+	     
 
       </plugin>
       
@@ -79,11 +89,5 @@
             <url>http://10.128.0.10:8081/repository/student-snap/</url>
         </snapshotRepository>
     </distributionManagement>
-  <dependencies>
-    <dependency>
-  		<groupId>javax.servlet</groupId>
-  		<artifactId>javax.servlet-api</artifactId>
-  		<version>3.0.1</version>
-  	</dependency>
-  </dependencies>
+  
 </project>

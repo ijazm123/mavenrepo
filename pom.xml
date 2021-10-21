@@ -28,12 +28,12 @@
 		       <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-compatibility-client-compiled</artifactId>
-            <version>${vaadin.version}</version>
+            <version>8.7.0</version>
         </dependency>
         <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-themes</artifactId>
-            <version>${vaadin.version}</version>
+            <version>8.7.0</version>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
